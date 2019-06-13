@@ -13,6 +13,7 @@ public class ItemsServiceImpl implements ItemsService {
     private ItemsDao itemsDao;
 
     public Items findById(Integer id) {
+        System.out.println("jdsaajasj");
         return itemsDao.findById(id);
     }
 }
